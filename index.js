@@ -2,6 +2,8 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 
+app.use('/places', require('./controllers/places'))
+
 //This is the Home route
 app.get ('/', (req, res) => {
     res.send('Hello world!')
