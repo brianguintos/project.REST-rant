@@ -1,4 +1,40 @@
+body {
+    background-color: #8b7a5b;
+    text-align: center;
+}
+
+main {
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+
 h1 {
     text-align: center;
-    color: cornflowerblue;
+    color: #5b8c87;
+}
+
+nav {
+    background-color: #8b5b5f;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type:none;
+    margin:0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+    color: white;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: pink;
+    text-decoration: none;
 }
